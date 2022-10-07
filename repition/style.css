@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(37, 79, 79);
+}
+
+#totoro{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+table{
+    background-image: url("bee.png");
+    background-repeat:repeat-x;
+    background-size: contain;
+}
+
+#boat{
+    margin-top: 20px;
+    width: 464px;
+    height: 464px;
+    border: 5px solid black;
+    background: url("sea-boat-black-white.png");
+}
+
+#boat:hover{
+    background: url("sea-boat.png");
+    border: 5px solid white;
+}
